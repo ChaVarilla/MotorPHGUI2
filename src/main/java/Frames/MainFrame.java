@@ -60,6 +60,7 @@ public class MainFrame extends javax.swing.JDialog {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        table1.setForeground(new java.awt.Color(51, 51, 51));
         table1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
@@ -79,7 +80,7 @@ public class MainFrame extends javax.swing.JDialog {
                 return types [columnIndex];
             }
         });
-        table1.setSelectionBackground(new java.awt.Color(255, 255, 255));
+        table1.setSelectionBackground(new java.awt.Color(102, 102, 102));
         table1.setSelectionForeground(new java.awt.Color(255, 255, 255));
         table1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(table1);

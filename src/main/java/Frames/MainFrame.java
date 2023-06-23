@@ -88,7 +88,7 @@ public class MainFrame extends javax.swing.JDialog {
             table1.getColumnModel().getColumn(0).setPreferredWidth(100);
         }
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, 720, 337));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 20, 720, 310));
 
         viewbtn.setBackground(new java.awt.Color(102, 102, 102));
         viewbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -164,7 +164,7 @@ public class MainFrame extends javax.swing.JDialog {
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\charm\\Documents\\NetBeansProjects\\MotorPHGUI2\\Red and Beige Geometric Style Custom Motorcycle Garage Presentation.png")); // NOI18N
         jLabel1.setText("jLabel1");
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 960, 390));
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 410));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

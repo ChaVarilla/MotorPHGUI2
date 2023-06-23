@@ -133,7 +133,7 @@ public class LogInFrame extends javax.swing.JFrame {
                 mainframe.setVisible(true);           
             }
             else{
-                JOptionPane.showMessageDialog(this, "Invalid Credentials. Try Again.");
+                JOptionPane.showMessageDialog(this, "Username or Password is incorrect. Try Again.", "Invalid Credentials", JOptionPane.ERROR_MESSAGE);
             }
         } catch (IOException | CsvValidationException ex) {
             Logger.getLogger(LogInFrame.class.getName()).log(Level.SEVERE, null, ex);

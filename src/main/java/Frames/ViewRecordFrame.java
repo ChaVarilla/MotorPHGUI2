@@ -183,21 +183,29 @@ public class ViewRecordFrame extends javax.swing.JDialog {
         getContentPane().add(semratetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(149, 498, 387, -1));
         getContentPane().add(hourlyratetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 530, 387, -1));
 
+        jButton1.setBackground(new java.awt.Color(102, 102, 102));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Update");
+        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Update(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 570, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 560, 80, 30));
 
+        jButton2.setBackground(new java.awt.Color(102, 102, 102));
+        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("Close");
+        jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 close(evt);
             }
         });
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 570, -1, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 560, 80, 30));
 
         jLabel20.setIcon(new javax.swing.ImageIcon("C:\\Users\\charm\\Documents\\NetBeansProjects\\MotorPHGUI2\\Orange and Black Illustrated Riding Tips and Trick Instagram Story .png")); // NOI18N
         getContentPane().add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 650, 610));

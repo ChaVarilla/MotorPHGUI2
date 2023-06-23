@@ -109,6 +109,7 @@ public class PayslipFrame extends javax.swing.JDialog {
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        jLabel38 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
@@ -162,226 +163,139 @@ public class PayslipFrame extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
         lastnametf.setEditable(false);
+        jPanel1.add(lastnametf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 34, 387, -1));
 
         firstnametf.setEditable(false);
+        jPanel1.add(firstnametf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 62, 387, -1));
 
         bdaytf.setEditable(false);
+        jPanel1.add(bdaytf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 90, 387, -1));
 
         addresstf.setEditable(false);
+        jPanel1.add(addresstf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 118, 387, -1));
 
         phonenumtf.setEditable(false);
+        jPanel1.add(phonenumtf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 146, 387, -1));
 
         sssnumtf.setEditable(false);
+        jPanel1.add(sssnumtf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 174, 387, -1));
 
         phnumtf.setEditable(false);
+        jPanel1.add(phnumtf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 202, 387, -1));
 
         tinnumtf.setEditable(false);
+        jPanel1.add(tinnumtf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 230, 387, -1));
 
         pagibigtf.setEditable(false);
+        jPanel1.add(pagibigtf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 258, 387, -1));
 
         statustf.setEditable(false);
+        jPanel1.add(statustf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 286, 387, -1));
 
         jLabel8.setText("Philhealth Number:");
+        jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 205, -1, -1));
 
         positiontf.setEditable(false);
+        jPanel1.add(positiontf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 314, 387, -1));
 
         jLabel9.setText("TIN Number:");
+        jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 233, -1, -1));
 
         supervisortf.setEditable(false);
+        jPanel1.add(supervisortf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 342, 387, -1));
 
         jLabel10.setText("PAGIBIG Number:");
+        jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 261, -1, -1));
 
         employeenumbertf.setEditable(false);
+        jPanel1.add(employeenumbertf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 6, 387, -1));
 
         jLabel11.setText("Status:");
+        jPanel1.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 289, -1, -1));
 
         basicsalarytf.setEditable(false);
+        jPanel1.add(basicsalarytf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 370, 387, -1));
 
         jLabel12.setText("Position:");
+        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 317, -1, -1));
 
         ricetf.setEditable(false);
+        jPanel1.add(ricetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 398, 387, -1));
 
         jLabel13.setText("Immediate Supervisor:");
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 348, -1, -1));
 
         phonetf.setEditable(false);
+        jPanel1.add(phonetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 426, 387, -1));
 
         jLabel14.setText("Basic Salary:");
+        jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 373, -1, -1));
 
         clothingtf.setEditable(false);
+        jPanel1.add(clothingtf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 454, 387, -1));
 
         jLabel15.setText("Rice Subsidy:");
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 401, -1, -1));
 
         semratetf.setEditable(false);
+        jPanel1.add(semratetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 482, 387, -1));
 
         jLabel16.setText("Phone Allowance:");
+        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 429, -1, -1));
 
         jLabel17.setText("Clothing Allowance:");
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 457, -1, -1));
 
         jLabel1.setText("Employee Number:");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 9, -1, -1));
 
         jLabel2.setText("Last Name: ");
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 37, -1, -1));
 
         jLabel3.setText("First Name:");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 65, -1, -1));
 
         jLabel4.setText("Birthday:");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 93, -1, -1));
 
         jLabel5.setText("Address:");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 121, -1, -1));
 
         jLabel6.setText("Phone Number:");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 149, -1, -1));
 
         jLabel7.setText("SSS Number:");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 177, -1, -1));
 
         hourlyratetf.setEditable(false);
+        jPanel1.add(hourlyratetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 510, 387, -1));
 
         jLabel18.setText("Semi-monthly Rate:");
+        jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 482, -1, -1));
 
         jLabel19.setText("Hourly Rate:");
+        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(16, 510, -1, -1));
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 204));
+        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setText("Close");
+        jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 550, 80, 30));
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jButton1)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel5)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel8)
-                            .addComponent(jLabel9)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel11)
-                            .addComponent(jLabel12)
-                            .addComponent(jLabel13)
-                            .addComponent(jLabel14)
-                            .addComponent(jLabel15)
-                            .addComponent(jLabel16)
-                            .addComponent(jLabel17)
-                            .addComponent(jLabel18)
-                            .addComponent(jLabel19))
-                        .addGap(16, 16, 16)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(lastnametf)
-                            .addComponent(phonenumtf)
-                            .addComponent(sssnumtf)
-                            .addComponent(phnumtf)
-                            .addComponent(tinnumtf)
-                            .addComponent(pagibigtf)
-                            .addComponent(statustf)
-                            .addComponent(positiontf)
-                            .addComponent(basicsalarytf)
-                            .addComponent(ricetf)
-                            .addComponent(phonetf)
-                            .addComponent(clothingtf, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(semratetf)
-                            .addComponent(supervisortf)
-                            .addComponent(employeenumbertf)
-                            .addComponent(bdaytf)
-                            .addComponent(addresstf)
-                            .addComponent(firstnametf)
-                            .addComponent(hourlyratetf, javax.swing.GroupLayout.PREFERRED_SIZE, 387, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(employeenumbertf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lastnametf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
-                    .addComponent(firstnametf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
-                    .addComponent(bdaytf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5)
-                    .addComponent(addresstf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(phonenumtf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(sssnumtf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(phnumtf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(tinnumtf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(pagibigtf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel11)
-                    .addComponent(statustf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(positiontf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel13)
-                    .addComponent(supervisortf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(basicsalarytf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel14))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ricetf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel15))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(phonetf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(clothingtf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel17))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel18)
-                    .addComponent(semratetf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(hourlyratetf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel19))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 9, Short.MAX_VALUE)
-                .addComponent(jButton1)
-                .addContainerGap())
-        );
+        jLabel38.setIcon(new javax.swing.ImageIcon("C:\\Users\\charm\\Documents\\NetBeansProjects\\MotorPHGUI2\\Black and White Illustrated Custom Motorcycle Poster.jpg")); // NOI18N
+        jPanel1.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, 600));
 
         jTabbedPane1.addTab("Employee Details", jPanel1);
+
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -526,6 +440,8 @@ public class PayslipFrame extends javax.swing.JDialog {
                 .addGap(20, 20, 20))
         );
 
+        jPanel5.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(164, 21, -1, -1));
+
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel20.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -629,12 +545,15 @@ public class PayslipFrame extends javax.swing.JDialog {
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
+        jPanel5.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 21, -1, -1));
+
         showpaybtn.setText("Show Payslip");
         showpaybtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 showpaybtnMouseClicked(evt);
             }
         });
+        jPanel5.add(showpaybtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 323, 152, -1));
 
         closebtn.setText("Close");
         closebtn.addActionListener(new java.awt.event.ActionListener() {
@@ -642,37 +561,7 @@ public class PayslipFrame extends javax.swing.JDialog {
                 closebtnActionPerformed(evt);
             }
         });
-
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(closebtn)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(showpaybtn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(24, Short.MAX_VALUE))
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(showpaybtn))
-                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(closebtn)
-                .addGap(10, 10, 10))
-        );
+        jPanel5.add(closebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(462, 537, -1, -1));
 
         jTabbedPane1.addTab("Payslip", jPanel5);
 
@@ -684,7 +573,7 @@ public class PayslipFrame extends javax.swing.JDialog {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 601, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -745,13 +634,13 @@ public class PayslipFrame extends javax.swing.JDialog {
         
     }//GEN-LAST:event_showpaybtnMouseClicked
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void closebtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closebtnActionPerformed
         dispose();
     }//GEN-LAST:event_closebtnActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -842,6 +731,7 @@ public class PayslipFrame extends javax.swing.JDialog {
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;

@@ -44,7 +44,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jTabbedPane1" min="-2" pref="601" max="-2" attributes="0"/>
+          <Component id="jTabbedPane1" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -62,366 +62,425 @@
             </Constraint>
           </Constraints>
 
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel19" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="lastnametf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="phonenumtf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="sssnumtf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="phnumtf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="tinnumtf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="pagibigtf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="statustf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="positiontf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="basicsalarytf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="ricetf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="phonetf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="clothingtf" alignment="1" max="32767" attributes="0"/>
-                                  <Component id="semratetf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="supervisortf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="employeenumbertf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="bdaytf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="addresstf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="firstnametf" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="hourlyratetf" alignment="0" min="-2" pref="387" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                      <EmptySpace pref="20" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="employeenumbertf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel2" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
-                          <Component id="lastnametf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="firstnametf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bdaytf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="addresstf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="phonenumtf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="sssnumtf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="phnumtf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="tinnumtf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="pagibigtf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="statustf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="positiontf" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jLabel13" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="supervisortf" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="basicsalarytf" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="ricetf" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="phonetf" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="clothingtf" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
-                          <Component id="semratetf" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="hourlyratetf" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace pref="9" max="32767" attributes="0"/>
-                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
           </Layout>
           <SubComponents>
             <Component class="javax.swing.JTextField" name="lastnametf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="34" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="firstnametf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="62" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="bdaytf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="90" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="addresstf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="118" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="phonenumtf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="146" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="sssnumtf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="174" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="phnumtf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="202" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="tinnumtf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="230" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="pagibigtf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="258" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="statustf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="286" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Philhealth Number:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="205" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="positiontf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="314" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
                 <Property name="text" type="java.lang.String" value="TIN Number:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="233" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="supervisortf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="342" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel10">
               <Properties>
                 <Property name="text" type="java.lang.String" value="PAGIBIG Number:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="261" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="employeenumbertf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="6" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel11">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Status:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="289" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="basicsalarytf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="370" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel12">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Position:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="317" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="ricetf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="398" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel13">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Immediate Supervisor:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="348" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="phonetf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="426" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel14">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Basic Salary:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="373" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="clothingtf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="454" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel15">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Rice Subsidy:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="401" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="semratetf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="482" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel16">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Phone Allowance:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="429" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel17">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Clothing Allowance:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="457" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Employee Number:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="9" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Last Name: "/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="37" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="text" type="java.lang.String" value="First Name:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="65" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Birthday:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="93" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Address:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="121" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Phone Number:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="149" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel7">
               <Properties>
                 <Property name="text" type="java.lang.String" value="SSS Number:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="177" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JTextField" name="hourlyratetf">
               <Properties>
                 <Property name="editable" type="boolean" value="false"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="151" y="510" width="387" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Semi-monthly Rate:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="482" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel19">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Hourly Rate:"/>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="16" y="510" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JButton" name="jButton1">
               <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Close"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
               </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="460" y="550" width="80" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel38">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\charm\Documents\NetBeansProjects\MotorPHGUI2\Black and White Illustrated Custom Motorcycle Poster.jpg"/>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="0" y="0" width="570" height="600"/>
+                </Constraint>
+              </Constraints>
             </Component>
           </SubComponents>
         </Container>
@@ -434,44 +493,8 @@
             </Constraint>
           </Constraints>
 
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="closebtn" min="-2" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="jPanel2" max="32767" attributes="0"/>
-                                  <Component id="showpaybtn" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace pref="24" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="showpaybtn" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="closebtn" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-            </DimensionLayout>
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
           </Layout>
           <SubComponents>
             <Container class="javax.swing.JPanel" name="jPanel6">
@@ -482,6 +505,11 @@
                   </Border>
                 </Property>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="164" y="21" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
 
               <Layout>
                 <DimensionLayout dim="0">
@@ -738,6 +766,11 @@
                   </Border>
                 </Property>
               </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="6" y="21" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
 
               <Layout>
                 <DimensionLayout dim="0">
@@ -1025,6 +1058,11 @@
               <Events>
                 <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="showpaybtnMouseClicked"/>
               </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="6" y="323" width="152" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
             <Component class="javax.swing.JButton" name="closebtn">
               <Properties>
@@ -1033,6 +1071,11 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="closebtnActionPerformed"/>
               </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="462" y="537" width="-1" height="-1"/>
+                </Constraint>
+              </Constraints>
             </Component>
           </SubComponents>
         </Container>

@@ -222,7 +222,7 @@ public class DeleteRecordFrame extends javax.swing.JDialog {
         hourlyratetf.setEditable(false);
         getContentPane().add(hourlyratetf, new org.netbeans.lib.awtextra.AbsoluteConstraints(149, 526, 387, -1));
 
-        jButton1.setBackground(new java.awt.Color(236, 235, 235));
+        jButton1.setBackground(new java.awt.Color(252, 249, 249));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton1.setText("Delete");
         jButton1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -233,7 +233,7 @@ public class DeleteRecordFrame extends javax.swing.JDialog {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 560, 90, 30));
 
-        jButton2.setBackground(new java.awt.Color(236, 235, 235));
+        jButton2.setBackground(new java.awt.Color(249, 248, 248));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jButton2.setText("Close");
         jButton2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));

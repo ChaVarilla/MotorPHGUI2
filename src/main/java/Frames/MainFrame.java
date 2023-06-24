@@ -124,7 +124,7 @@ public class MainFrame extends javax.swing.JDialog {
                 PaySlip(evt);
             }
         });
-        jPanel2.add(payslipbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 161, 30));
+        jPanel2.add(payslipbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 161, 30));
 
         leavebtn.setBackground(new java.awt.Color(102, 102, 102));
         leavebtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -136,7 +136,7 @@ public class MainFrame extends javax.swing.JDialog {
                 leavebtnMouseClicked(evt);
             }
         });
-        jPanel2.add(leavebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 161, 30));
+        jPanel2.add(leavebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 161, 30));
 
         deletebtn.setBackground(new java.awt.Color(102, 102, 102));
         deletebtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -148,7 +148,7 @@ public class MainFrame extends javax.swing.JDialog {
                 DeleteRecord(evt);
             }
         });
-        jPanel2.add(deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 161, 30));
+        jPanel2.add(deletebtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, 161, 30));
 
         exitbtn.setBackground(new java.awt.Color(102, 102, 102));
         exitbtn.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
